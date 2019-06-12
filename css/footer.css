@@ -1,0 +1,21 @@
+
+footer{
+    background: darkgrey;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+footer ul{
+    padding: 10px;
+}
+footer li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 5px;
+}
+footer li::before {
+    content: "| ";
+}

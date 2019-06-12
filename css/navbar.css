@@ -1,0 +1,37 @@
+nav{
+    background: rgb(60, 161, 192);
+    box-shadow: 0px 1px 10px rgba(36, 35, 35, 0.897);
+}
+.navTop{
+    float: right;
+    background: rgb(83, 83, 83);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.navTop img {
+    width: 30px;
+    border-radius: 50%;
+}
+.navCenter {
+    text-align: center;
+    height: 250px;
+    padding-top:100px;
+}
+.navBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+.navBottom button {
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.navBottom button:hover{
+    background-color: rgb(172, 227, 243)
+}
